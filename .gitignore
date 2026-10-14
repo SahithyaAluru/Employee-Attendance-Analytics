@@ -1,0 +1,21 @@
+# Secrets - never commit (assignment forbids .env / secrets in the repo)
+.env
+*.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+_problem_statement.txt
+*.docx
+
+# Local editor settings
+.vscode/
+
+# Local server output and demo runs
+*.log
+tests/demo_api.py
+tests/demo_results.json
