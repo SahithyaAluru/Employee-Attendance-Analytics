@@ -44,6 +44,22 @@ credentials must allow creating and removing temporary databases.
 
 Submission files include source, requirements, README, REVIEW and DECISIONS.
 Do not submit credentials, virtual environments or generated data dumps.
+
+## Screenshots
+
+### MongoDB Atlas attendance records
+
+Atlas Data Explorer showing stored attendance records, including punch times,
+computed work hours, late and overtime minutes, and a corrected leave record.
+
 <img width="2536" height="1169" alt="Screenshot 2026-10-14 205045" src="https://github.com/user-attachments/assets/259f69e9-2025-4198-bdd5-7183d3f12bc2" />
+
+### Sales employees API
+
+Swagger UI showing `GET /employees?department=Sales&page=1&page_size=20`
+returning HTTP 200 with an employee from the Sales department.
+
+<img width="2240" height="1154" alt="Screenshot 2026-10-14 205826" src="https://github.com/user-attachments/assets/e03201d8-ba38-42d8-86af-87f2c96aa746" />
+
 
 
